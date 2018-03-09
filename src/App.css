@@ -1,0 +1,104 @@
+*p {
+  font-family: "pp-sans-big-light", "Helvetica Neue", Arial, sans-serif;
+}
+
+.divyImg {
+  height: 84%;
+  width: 84%;
+}
+
+.global {
+  padding: 38px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.myElement {
+  height: 45%;
+  width: 29%;
+  box-shadow: 4px 6px 7px 7px rgb(201, 196, 190);
+  border-radius: 3px;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.myImg {
+  height: 20vw;
+  width: 24vw;
+}
+
+.btn-floating {
+  background-color: #999999;
+}
+
+.away {
+  height: 17vw;
+  width: 24vw;
+}
+
+@media screen and (min-width: 320px) {
+  .divyImg {
+    height: 84%;
+    width: 84%;
+  }
+  .global {
+    padding: 38px 0px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .myElement {
+    height: 45%;
+    width: 29%;
+    box-shadow: 4px 6px 7px 7px rgb(201, 196, 190);
+    border-radius: 3px;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .myImg {
+    height: 20vw;
+    width: 24vw;
+  }
+  .btn-floating {
+    background-color: #999999;
+  }
+  .away {
+    height: 17vw;
+    width: 24vw;
+  }
+}
+
+@media screen and (max-width: 988px) {
+  .global {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 10px;
+  }
+  .myElement {
+    width: 100%;
+    height: auto;
+    margin: 38px 0px;
+    /* padding: 10px;*/
+    flex-direction: column;
+  }
+  .away {
+    width: 100%;
+    height: auto;
+  }
+  .divyImg {
+    display: flex;
+    justify-content: center;
+    height: auto;
+  }
+  .myImg {
+    width: 246px;
+    height: 270px;
+  }
+}
